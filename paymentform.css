@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 10px 20px;
+    font-size: 12px;
+    padding: 8px;
+}
+.container{
+    background-color: #cceead;
+    padding: 5px 20px 15px 20px;
+    border : 1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="Name"],
+input[type="Email"],
+input[type="Pincode"],
+input[type="Card Number"],
+input[type="Expiration Date"],
+input[type="submit"],
+input[type="CVV"],
+select,
+textarea{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
